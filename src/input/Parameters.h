@@ -16,10 +16,12 @@ public:
         NearestNeighbor,
         GRASP,
         VariableNeighborhoodDecent,
+        RandomNearestNeighbor,
     };
 
     std::string inputFile = "data/eil101.tsp";
     SolverType solverType = VariableNeighborhoodDecent;
+    int randomNeighbors = 3;
 
 private:
     static bool help(const std::string& msg = "");

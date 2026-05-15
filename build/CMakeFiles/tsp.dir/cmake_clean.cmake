@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tsp.dir/src/Main.cpp.obj"
+  "CMakeFiles/tsp.dir/src/Main.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/AbstractSolver.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/AbstractSolver.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/GraspSolver.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/GraspSolver.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/NearestNeighborSolver.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/NearestNeighborSolver.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/RandomNearestNeighborSolver.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/RandomNearestNeighborSolver.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/RandomSolver.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/RandomSolver.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/Solver.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/Solver.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/VNDSolver.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/VNDSolver.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/neighborhoods/Neighborhood.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/neighborhoods/Neighborhood.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/neighborhoods/Shift.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/neighborhoods/Shift.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/algorithm/neighborhoods/Swap.cpp.obj"
+  "CMakeFiles/tsp.dir/src/algorithm/neighborhoods/Swap.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/input/Loader.cpp.obj"
+  "CMakeFiles/tsp.dir/src/input/Loader.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/input/Parameters.cpp.obj"
+  "CMakeFiles/tsp.dir/src/input/Parameters.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/output/Solution.cpp.obj"
+  "CMakeFiles/tsp.dir/src/output/Solution.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/util/Random.cpp.obj"
+  "CMakeFiles/tsp.dir/src/util/Random.cpp.obj.d"
+  "CMakeFiles/tsp.dir/src/util/Timer.cpp.obj"
+  "CMakeFiles/tsp.dir/src/util/Timer.cpp.obj.d"
+  "libtsp.dll.a"
+  "tsp.exe"
+  "tsp.exe.manifest"
+  "tsp.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/tsp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

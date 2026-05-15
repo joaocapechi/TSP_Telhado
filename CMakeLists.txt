@@ -19,6 +19,8 @@ add_executable(tsp
         src/algorithm/neighborhoods/Neighborhood.cpp
         src/algorithm/neighborhoods/Neighborhood.h
         src/util/Point.h
+        src/algorithm/RandomNearestNeighborSolver.cpp
+        src/algorithm/RandomNearestNeighborSolver.h
         src/util/Random.cpp
         src/util/Random.h
         src/algorithm/RandomSolver.cpp

@@ -1,0 +1,98 @@
+[
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\AbstractSolver.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\AbstractSolver.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/AbstractSolver.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/AbstractSolver.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\GraspSolver.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\GraspSolver.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/GraspSolver.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/GraspSolver.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\input\\Loader.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\input\\Loader.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/input/Loader.cpp",
+  "output": "CMakeFiles/tsp.dir/src/input/Loader.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\Main.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\Main.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/Main.cpp",
+  "output": "CMakeFiles/tsp.dir/src/Main.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\NearestNeighborSolver.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\NearestNeighborSolver.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/NearestNeighborSolver.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/NearestNeighborSolver.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\neighborhoods\\Neighborhood.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\neighborhoods\\Neighborhood.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/neighborhoods/Neighborhood.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/neighborhoods/Neighborhood.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\RandomNearestNeighborSolver.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\RandomNearestNeighborSolver.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/RandomNearestNeighborSolver.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/RandomNearestNeighborSolver.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\util\\Random.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\util\\Random.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/util/Random.cpp",
+  "output": "CMakeFiles/tsp.dir/src/util/Random.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\RandomSolver.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\RandomSolver.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/RandomSolver.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/RandomSolver.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\neighborhoods\\Shift.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\neighborhoods\\Shift.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/neighborhoods/Shift.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/neighborhoods/Shift.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\output\\Solution.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\output\\Solution.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/output/Solution.cpp",
+  "output": "CMakeFiles/tsp.dir/src/output/Solution.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\Solver.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\Solver.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/Solver.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/Solver.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\neighborhoods\\Swap.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\neighborhoods\\Swap.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/neighborhoods/Swap.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/neighborhoods/Swap.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\util\\Timer.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\util\\Timer.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/util/Timer.cpp",
+  "output": "CMakeFiles/tsp.dir/src/util/Timer.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\algorithm\\VNDSolver.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\algorithm\\VNDSolver.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/algorithm/VNDSolver.cpp",
+  "output": "CMakeFiles/tsp.dir/src/algorithm/VNDSolver.cpp.obj"
+},
+{
+  "directory": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tsp.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tsp.dir\\src\\input\\Parameters.cpp.obj -c C:\\Users\\joaop\\OneDrive\\Documents\\PUC\\Galgos\\TSP_Telhado\\src\\input\\Parameters.cpp",
+  "file": "C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/src/input/Parameters.cpp",
+  "output": "CMakeFiles/tsp.dir/src/input/Parameters.cpp.obj"
+}
+]

@@ -24,6 +24,7 @@ bool NearestNeighborSolver::solve()
 				next = j;
 
 		solution.nodes.push_back(next);
+		
 		visited[next] = true;
 	}
 	solution.nodes.push_back(0);
