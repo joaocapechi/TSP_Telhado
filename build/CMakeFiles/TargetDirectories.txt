@@ -1,3 +1,0 @@
-C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build/CMakeFiles/tsp.dir
-C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build/CMakeFiles/edit_cache.dir
-C:/Users/joaop/OneDrive/Documents/PUC/Galgos/TSP_Telhado/build/CMakeFiles/rebuild_cache.dir
