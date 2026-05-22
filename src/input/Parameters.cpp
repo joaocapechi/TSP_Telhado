@@ -27,7 +27,6 @@ bool Parameters::load(const int argc, const char* argv[])
     solverType = it->second;
     randomNeighbors = (argc > 2) ? strtol(argv[3], NULL, 10) : 3;
 
-
     return true;
 }
 

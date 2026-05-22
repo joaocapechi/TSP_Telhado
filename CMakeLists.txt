@@ -39,4 +39,8 @@ add_executable(tsp
         src/algorithm/VNDSolver.cpp
         src/algorithm/VNDSolver.h
         src/input/Parameters.cpp
-        src/input/Parameters.h)
+        src/input/Parameters.h
+        src/algorithm/neighborhoods/twoOpt.h
+        src/algorithm/neighborhoods/twoOpt.cpp
+        src/algorithm/NeighborhoodSolver.h
+        src/algorithm/NeighborhoodSolver.cpp)

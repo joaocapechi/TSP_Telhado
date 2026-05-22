@@ -5,6 +5,7 @@
 #include "neighborhoods/Neighborhood.h"
 #include "neighborhoods/Shift.h"
 #include "neighborhoods/Swap.h"
+#include "neighborhoods/TwoOpt.h"
 
 #include "NearestNeighborSolver.h"
 
@@ -12,6 +13,7 @@ using namespace std;
 
 VNDSolver::VNDSolver()
 {
+	neighborhoods.push_back(new TwoOpt());
 	neighborhoods.push_back(new Swap());
 	neighborhoods.push_back(new Shift());
 }
