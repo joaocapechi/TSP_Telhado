@@ -1,4 +1,4 @@
-#include "NearestNeighborSolver.h"
+#include "NearestNeighbor.h"
 
 #include <vector>
 #include <iostream>
@@ -7,7 +7,7 @@
 
 using namespace std;
 
-bool NearestNeighborSolver::solve()
+bool NearestNeighbor::solve()
 {
 	vector<bool> visited(data.dimension);
 
@@ -24,7 +24,6 @@ bool NearestNeighborSolver::solve()
 				next = j;
 
 		solution.nodes.push_back(next);
-		
 		visited[next] = true;
 	}
 	solution.nodes.push_back(0);

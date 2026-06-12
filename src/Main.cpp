@@ -30,7 +30,14 @@ int main(const int argc, const char * argv[])
 		Solver solver;
 		solver.solve();
 
-		cout << format("Time: {:.6f}s", timer.stop()) << endl;
+        cout << format("{},{},{},{},{:.3f},{:.6f}",
+            data.name,
+            (int)params.solverType,
+            solver.solution.cost,
+            data.bks,
+            (solver.solution.cost - data.bks) / (double)data.bks * 100.0,
+            timer.stop()
+        ) << endl;
 	}
 	catch (exception& e)
 	{

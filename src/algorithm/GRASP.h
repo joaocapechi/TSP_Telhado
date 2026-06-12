@@ -2,7 +2,7 @@
 
 #include "AbstractSolver.h"
 
-class GraspSolver : public AbstractSolver
+class GRASP : public AbstractSolver
 {
 public:
 

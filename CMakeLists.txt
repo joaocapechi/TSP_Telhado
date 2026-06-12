@@ -9,22 +9,24 @@ add_executable(tsp
         src/algorithm/AbstractSolver.cpp
         src/algorithm/AbstractSolver.h
         src/input/Data.h
-        src/algorithm/GraspSolver.cpp
-        src/algorithm/GraspSolver.h
+        src/algorithm/GRASP.cpp
+        src/algorithm/GRASP.h
+        src/algorithm/IteratedLocalSearch.cpp
+        src/algorithm/IteratedLocalSearch.h
         src/input/Loader.cpp
         src/input/Loader.h
         src/Main.cpp
-        src/algorithm/NearestNeighborSolver.cpp
-        src/algorithm/NearestNeighborSolver.h
+        src/algorithm/NearestNeighbor.cpp
+        src/algorithm/NearestNeighbor.h
         src/algorithm/neighborhoods/Neighborhood.cpp
         src/algorithm/neighborhoods/Neighborhood.h
         src/util/Point.h
-        src/algorithm/RandomNearestNeighborSolver.cpp
-        src/algorithm/RandomNearestNeighborSolver.h
         src/util/Random.cpp
         src/util/Random.h
-        src/algorithm/RandomSolver.cpp
-        src/algorithm/RandomSolver.h
+        src/algorithm/RandomSolution.cpp
+        src/algorithm/RandomSolution.h
+        src/algorithm/neighborhoods/Relocate.cpp
+        src/algorithm/neighborhoods/Relocate.h
         src/algorithm/neighborhoods/Shift.cpp
         src/algorithm/neighborhoods/Shift.h
         src/util/Singleton.h
@@ -36,11 +38,9 @@ add_executable(tsp
         src/algorithm/neighborhoods/Swap.h
         src/util/Timer.cpp
         src/util/Timer.h
-        src/algorithm/VNDSolver.cpp
-        src/algorithm/VNDSolver.h
+        src/algorithm/neighborhoods/TwoOpt.cpp
+        src/algorithm/neighborhoods/TwoOpt.h
+        src/algorithm/VariableNeighborhoodDescent.cpp
+        src/algorithm/VariableNeighborhoodDescent.h
         src/input/Parameters.cpp
-        src/input/Parameters.h
-        src/algorithm/neighborhoods/twoOpt.h
-        src/algorithm/neighborhoods/twoOpt.cpp
-        src/algorithm/NeighborhoodSolver.h
-        src/algorithm/NeighborhoodSolver.cpp)
+        src/input/Parameters.h)

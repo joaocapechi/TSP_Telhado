@@ -1,4 +1,4 @@
-#include "RandomSolver.h"
+#include "RandomSolution.h"
 
 #include <iostream>
 
@@ -7,14 +7,14 @@
 
 using namespace std;
 
-bool RandomSolver::solve()
+bool RandomSolution::solve()
 {
     for (int i = 0; i < data.dimension; i++)
 		solution.nodes.push_back(i);
 	solution.nodes.push_back(0);
 
 	solution.evaluate();
-	cout << "RandomSolver: " << solution << endl;
+	cout << "RandomSolution: " << solution << endl;
 
 	Solution current = solution;
 	for (int k = 0; k < 10'000'000; k++)

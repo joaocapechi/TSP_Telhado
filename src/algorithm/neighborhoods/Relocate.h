@@ -4,7 +4,7 @@
 
 class Solution;
 
-class TwoOpt : public Neighborhood
+class Relocate : public Neighborhood
 {
 public:
 

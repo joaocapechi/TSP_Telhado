@@ -12,15 +12,16 @@ public:
 
     enum SolverType
     {
-        Random,
+        RandomSolution,
         NearestNeighbor,
         GRASP,
-        VariableNeighborhoodDecent,
-        RandomNearestNeighbor,
+        VariableNeighborhoodDecentSolver,
+        // RandomNearestNeighborSolver,
+        IteratedLocalSearchSolver,
     };
-
+    
     std::string inputFile = "data/eil101.tsp";
-    SolverType solverType = VariableNeighborhoodDecent;
+    SolverType solverType = IteratedLocalSearchSolver;
     int randomNeighbors = 3;
 
 private:

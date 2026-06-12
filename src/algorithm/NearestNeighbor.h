@@ -2,7 +2,7 @@
 
 #include "AbstractSolver.h"
 
-class NearestNeighborSolver : public AbstractSolver
+class NearestNeighbor : public AbstractSolver
 {
 public:
 

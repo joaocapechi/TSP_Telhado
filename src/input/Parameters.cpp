@@ -1,7 +1,6 @@
 #include "Parameters.h"
 
 #include <iostream>
-
 #include <map>
 
 using namespace std;
@@ -11,11 +10,12 @@ bool Parameters::load(const int argc, const char* argv[])
     if (argc < 3) return help("Not enough arguments");
 
     map<string, SolverType> solvers {
-        {"random", Random},
+        {"random", RandomSolution},
         {"nearest", NearestNeighbor},
         {"grasp", GRASP},
-        {"variable", VariableNeighborhoodDecent},
-        {"randomNearest", RandomNearestNeighbor}
+        {"variable", VariableNeighborhoodDecentSolver},
+        // {"randomNearest", RandomNearestNeighborSolver},
+        {"ils", IteratedLocalSearchSolver}
     };
 
     inputFile = string(argv[1]);
@@ -36,9 +36,6 @@ bool Parameters::help(const string& msg)
     cout << "Usage: tsp <input_file> [options]" << endl;
     cout << "Options:" << endl;
     cout << "  input_file: TSP instance file to solve." << endl;
-    cout << "  type_solver: Type of solver." << endl;
-    cout << "    random\n    nearest\n    grasp\n    variable\n    randomNearest" << endl;
-    cout << "  extra_from_solver: Parameters of the solver." << endl;
 
     return false;
 }

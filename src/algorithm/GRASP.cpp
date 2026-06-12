@@ -1,4 +1,4 @@
-#include "GraspSolver.h"
+#include "GRASP.h"
 
 #include <vector>
 #include <iostream>
@@ -10,7 +10,7 @@
 
 using namespace std;
  
-bool GraspSolver::solve()
+bool GRASP::solve()
 {
 	for (int k = 0; k < 30'000; k++)
 	{
@@ -25,7 +25,7 @@ bool GraspSolver::solve()
 	return true;
 }
 
-Solution GraspSolver::solveOne(const bool deterministic) const
+Solution GRASP::solveOne(const bool deterministic) const
 {
 	Solution current;
 	current.nodes.push_back(0);

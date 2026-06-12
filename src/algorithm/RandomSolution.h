@@ -2,7 +2,7 @@
 
 #include "AbstractSolver.h"
 
-class RandomSolver : public AbstractSolver
+class RandomSolution : public AbstractSolver
 {
 public:
 	bool solve() override;

@@ -5,6 +5,8 @@
 #include "input/Data.h"
 #include "output/Solution.h"
 
+#include "util/Random.h"
+
 using namespace std;
 
 bool Shift::evaluate(const Solution& solution, Args& args) const
@@ -41,11 +43,18 @@ bool Shift::localSearch(Solution& solution)
             {
                 move(solution, args);
                 found = any = true;
-                cout << "[SH] " << solution << endl;
+                // cout << "[SH] " << solution << endl;
             }
         }
     }
     return any;
 }
 
-bool Shift::randomMove(Solution& solution) { return false; }
+bool Shift::randomMove(Solution& solution)
+{
+    int pos = Random::randomInt(1, data.dimension - 2);
+    Args args(pos);
+    if (!evaluate(solution, args)) return false;
+    move(solution, args);
+    return true;
+}

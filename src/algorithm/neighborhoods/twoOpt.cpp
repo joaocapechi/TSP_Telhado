@@ -1,69 +1,64 @@
-#include "twoOpt.h"
+#include "TwoOpt.h"
+
+#include <iostream>
+#include <algorithm>
 
 #include "input/Data.h"
 #include "output/Solution.h"
 
-#include <iostream>
-
-#include <algorithm>
-#include <vector>
+#include "util/Random.h"
 
 using namespace std;
 
-// See if it is worthy doing the change
-bool TwoOpt::evaluate(const Solution& solution, Args& args) const
+bool TwoOpt::evaluate(const Solution &solution, Args &args) const
 {
-    vector<int> new_solution(solution.nodes);
-    
-    auto it1 = new_solution.begin() + args.start - 1;
-    auto it2 = new_solution.begin() + args.end - 1;
-    reverse(it1, it2);
+    const int prev1 = solution.nodes[args.pos1 - 1];
+    const int curr1 = solution.nodes[args.pos1];
+    const int curr2 = solution.nodes[args.pos2];
+    const int next2 = solution.nodes[args.pos2 + 1];
 
-    int tmp = 0;
-    for (int i = 0; i < new_solution.size() - 1; i++)
-        tmp += data.costs[new_solution[i]][new_solution[i+1]];
-    
-    args.profit = solution.cost - tmp;
+    args.profit = data.costs[prev1][curr1] + data.costs[curr2][next2] -
+                  data.costs[prev1][curr2] - data.costs[curr1][next2];
 
     return true;
 }
 
-void TwoOpt::move(Solution& solution, const Args& args) 
+void TwoOpt::move(Solution &solution, const Args &args)
 {
-    auto it1 = solution.nodes.begin() + args.start - 1;
-    auto it2 = solution.nodes.begin() + args.end - 1;
-    reverse(it1, it2);
-
+    reverse(solution.nodes.begin() + args.pos1, solution.nodes.begin() + args.pos2 + 1);
     solution.evaluate();
 }
 
-bool TwoOpt::localSearch(Solution& solution)
+bool TwoOpt::localSearch(Solution &solution)
 {
     bool any = false;
     bool found = true;
     while (found)
     {
         found = false;
-        for (int pos1 = 1; pos1 < data.dimension - 1; pos1++)
-        {
-            for (int pos2 = pos1 + 1; pos2 < data.dimension - 1; pos2++)
+        for (int pos1 = 1; pos1 < data.dimension - 4; pos1++)
+            for (int pos2 = pos1 + 2; pos2 < data.dimension - 1; pos2++)
             {
-                Args args({pos1, pos2, 0});
+                Args args(pos1, pos2);
                 evaluate(solution, args);
                 if (args.profit > 0)
                 {
                     move(solution, args);
                     found = any = true;
-                    cout << "[TO] " << solution << endl;
+                    // cout << "[2O] " << solution << endl;
                 }
             }
-        }
     }
     return any;
 }
 
-bool TwoOpt::randomMove(Solution& solution)
+bool TwoOpt::randomMove(Solution &solution)
 {
-    // To be implemented
-    return false;
+    int pos1 = Random::randomInt(1, data.dimension - 5);
+    int pos2 = Random::randomInt(pos1 + 2, data.dimension - 2);
+    Args args(pos1, pos2);
+    if (!evaluate(solution, args))
+        return false;
+    move(solution, args);
+    return true;
 }
